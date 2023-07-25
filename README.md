@@ -7,3 +7,4 @@ Powered by [googletrans](https://pypi.org/project/googletrans/)
 fst.exe -f subtitles.srt -d es
 ```
 
+![test](https://github.com/manucabral/fast-subtitles-translator/assets/83357673/93651c7b-8454-4692-b36f-37eba091b298)
