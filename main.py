@@ -21,7 +21,7 @@ def translate_srt_file(dest_language, srt_file):
     translator = googletrans.Translator()
     
     print(f"Reading {srt_file}...")
-    with open(srt_file, 'r') as file:
+    with open(srt_file, 'r', encoding='utf-8') as file:
         text = file.read()
     
     print(f"Translating to {dest_language}...")
