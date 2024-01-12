@@ -29,7 +29,7 @@ def translate_srt_file(source_language, dest_language, srt_file, chunk_size):
     translator = googletrans.Translator()
 
     print(f"Reading {srt_file}...")
-    with open(srt_file, "r", encoding="utf-8") as file:
+    with open(srt_file, "r", encoding="utf-8", errors="ignore") as file:
         text = file.read()
 
     if source_language is None:
